@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Jhonny Moreira</title>
+  </head>
+  <body data-spy="scroll" data-target="#menu-buttons" data-offset="20">
+    <nav class="navbar navbar-default navbar-fixed-top" id="scroll-spy">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="brand-logo" href="#"><img src="img/favicon.png"></img><h3> Jhonny Moreira</h3> </a>
+        </div>
+      <div class="collapse navbar-collapse navbar-right">
+        <ul class="nav navbar-nav" id="menu-buttons">
+          <li> <a data-toggle="collapse" data-target=".navbar-collapse" href="#work">Work</a> </li>
+          <li> <a data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a></li>
+          <li> <a data-toggle="collapse" data-target=".navbar-collapse" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <div class="container-fluid" id="home-container">
+      <div class="well">
+        <h1 >Hi, I'm <span class="text-primary">Jhonny</span></h1>
+        <h2>A web developer and game developer</h2>
+        <canvas width="200px" height="200px"></canvas>
+      </div>
+    </div>
+    <div class="container-fluid text-center" id="work">
+      <div class="well">
+        <h3>Work</h3>
+        <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <a href="moviemarker/" target="_blank" class="thumbnail thumbnail-portfolio"  onclick="this.blur();" data-toggle="modal">
+              <div class="caption text-center">
+                <h3>Movie Marker</h3>
+                <p>Search and Bookmark your favorite movies</p>
+                <hr>
+                <i class="fa fa-search-plus"></i>
+              </div>
+              <img src="img/moviemarker.png" class="img-responsive" alt="Cabin">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="http://rockerlife.uphero.com" target="_blank" class="thumbnail thumbnail-portfolio"  onclick="this.blur();" data-toggle="modal">
+              <div class="caption text-center">
+                <h3>Rocker Life</h3>
+                <p>Music career simulation game. Still in development</p>
+                <hr>
+                <i class="fa fa-search-plus"></i>
+              </div>
+              <img src="img/rockerlife.png" class="img-responsive">
+          </a>
+        </div>
+
+      </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center" id="about">
+      <div class="well">
+      <h3>About me</h3>
+      <div class="row">
+      <div class="col-md-2 col-md-offset-2">
+        <img src="img/profile.jpeg" class="img-responsive" id="profile-pic"></img>
+      </div>
+        <div class="col-md-2">
+          <p>Fresh out of college, after finishing my Master's Degree in Computer Network and Systems Engineering,
+            in the Faculty of Science of the University of Porto. During my education, I have learned multiple programming languages, like Java, JavaScript, C and Python.
+            Also worked with multiple technologies, like HTML, CSS and MySQL, on both Windows and Linux environments.</p>
+            </div>
+        <div class="col-md-2">
+          <p> Outside my curricular program, I have learned and worked with several web developing technologies, like Bootstrap, Jquery and explored the Canvas Tag in HTML5.
+            I also have a passion for Game Development, and I am currently working on a music career simulation game. Outside of programing I have an interest in both Music and Gaming.</p>
+        </div>
+        <div class="col-md-2">
+          <p>With a passion for development and with a hunger for learning, I am currently looking for the next challenge to further up my knowledge and experience.
+          As such I am looking for a position as Junior Developer or an internship, but feel free to contact me with project ideas in both web and game development.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid text-center" id="contact">
+      <div class="well">
+        <h3>Contact</h3>
+        <h4>Email</i></h4>
+        <p>If you have any questions, or want to work with me, you can contact me at:  jhonnymcmoreira@gmail.com</p>
+        <hr>
+        <h4>Social Media</h4>
+        <p>You can also find me at:</p>
+        <div class="row">
+          <div class="col-md-4 text-center">
+              <a href="https://www.facebook.com/jhonny.moreira.948" class="btn btn-default" target="_blank"><i class="fa fa-fw fa-facebook fa-5x"></i></a>
+          </div>
+          <div class="col-md-4 text-center">
+              <a href="https://github.com/jhonny-m" class="btn btn-default" target="_blank"><i class="fa fa-fw fa-github fa-5x"></i></a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="https://www.linkedin.com/in/jhonny-moreira-938a97123/" class="btn btn-default" target="_blank"><i class="fa fa-fw fa-linkedin fa-5x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid text-center">
+        &copy; 2017 Jhonny Moreira
+      </div>
+    </footer>
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js">
+
+    </script>
+  </body>
+</html>

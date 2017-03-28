@@ -1,0 +1,59 @@
+/*Global*/
+body{
+  position: relative;
+}
+
+/*header*/
+.navbar{
+  padding: 5px;
+}
+#brand-logo img{
+  float: left;
+}
+#brand-logo + h3{
+  clear: left;
+}
+#brand-logo h3{
+  color: #DC5C05;
+  display: inline;
+}
+.well .anchor{
+position: relative;
+width: 0;
+height: 0;
+z-index: -1;
+top: 150px;
+left: 0;
+visibility: hidden;
+}
+/* elemnts*/
+#home-container .well, #work .well, #about .well{
+  margin-top: 60px;
+  min-height:  520px;
+}
+#contact .well{
+  margin-top: 60px;
+  min-height:  480px;
+}
+
+/*footer */
+
+
+/*Picture*/
+#profile-pic{
+  border: 5px solid #2b3e50;
+  border-radius: 100%;
+}
+
+.thumbnail-portfolio .caption{
+  background-color:  #2b3e50;
+  width: 242px;
+  height: 200px;
+  left: 97px;
+  position: absolute;
+  opacity: 0;
+}
+
+.thumbnail-portfolio:hover .caption{
+  opacity: 1;
+}
