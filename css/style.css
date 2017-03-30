@@ -36,12 +36,16 @@ visibility: hidden;
   min-height:  480px;
 }
 
-/*footer */
-
+/*canvas */
+canvas{
+  display: block;
+  margin: 0 auto;
+  background-image: url("../img/canvasbackground.png");
+  border: 2px solid white;
+}
 
 /*Picture*/
 #profile-pic{
-  border: 5px solid #2b3e50;
   border-radius: 100%;
   vertical-align: middle;
 }
